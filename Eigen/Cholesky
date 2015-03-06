@@ -1,0 +1,13 @@
+#ifndef EIGEN_CHOLESKY_MODULE_H
+#define EIGEN_CHOLESKY_MODULE_H
+
+#include "Core"
+
+namespace Eigen {
+
+#include "src/Cholesky/Cholesky.h"
+#include "src/Cholesky/CholeskyWithoutSquareRoot.h"
+
+} // namespace Eigen
+
+#endif // EIGEN_CHOLESKY_MODULE_H

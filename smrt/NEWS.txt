@@ -1,0 +1,12 @@
+SMRT News
+========
+
+!!![=libsmrt-1.0=] libsmrt has been forked from OSG's smart pointer implementation.
+
+PITTSBURGH PA, U.S.A - 30th April 2007  - [=libsmrt=] libsmrt has been forked from OSG's ref_ptr functionality so that it can be used without the inclusion of osg in its entirety. The libsmrt fork has attempted to keep as much of the OSG functionality in tact as possible so that the behavior will be identical. There are three changes made: 
+	1. All relevant types have been moved out of the osg namespace and into the 'smrt' namespace  
+	2. Java wrapper stuff was removed (to avoid separation compexities)
+	3. osg::Notify functionatlity removed. (two lines replaced notify with cout) 
+Everything else should be the same. "Export" stuff has been mirrored, and even the make system is as identical as possible.
+
+See README.txt for additional information.

@@ -1,0 +1,13 @@
+#ifndef EIGEN_QR_MODULE_H
+#define EIGEN_QR_MODULE_H
+
+#include "Core"
+
+namespace Eigen {
+
+#include "src/QR/QR.h"
+#include "src/QR/EigenSolver.h"
+
+} // namespace Eigen
+
+#endif // EIGEN_QR_MODULE_H

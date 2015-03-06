@@ -1,0 +1,10 @@
+libsmrt Library 1.0
+
+Contributers extracted via svn blame from files pulled from OpenSceneGraph. If you see code in the lib that you think should be attributed to you, please contact me and I will add you to the Authors list.
+
+3 Contributors:
+Given name  Familyname
+-----------------
+Robert      Osfield
+Don         Burns
+Andrew      Somerville
